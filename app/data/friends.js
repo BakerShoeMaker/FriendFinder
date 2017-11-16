@@ -26,6 +26,6 @@ var userArray =[
         "scores":[5, 1,2, 4, 3, 1, 2, 3, 3, 4]
     }
 
-]
+];
 
-module.export = userArray;
+module.exports = userArray;
