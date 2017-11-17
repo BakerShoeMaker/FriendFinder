@@ -6,6 +6,6 @@ This app is a compatibility-based "FriendFinder" application -- basically a dati
  Body-parser
  
  ### Routes
- /
- /survey
- /api/friends
+ * /
+ * /survey
+ * /api/friends
