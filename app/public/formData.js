@@ -11,6 +11,7 @@ var _quest_8;
 var _quest_9;
 var _quest_10;
 
+var friendsInformation =[];
 $('#submit').on('click', function(){
 
     /*for(var i = 0; i<9; i++){
@@ -40,7 +41,6 @@ $('#submit').on('click', function(){
     userArrayData.push(_quest_10);
         console.log("The value is: ", _quest_1);
         console.log(userArrayData);
-
 });
 
 //???????????????????????????????????????
@@ -51,7 +51,7 @@ module.exports = function(app) {
     //Used to display a JSON list of all possible friends.
     app.get("/api/friends", (req, res)=>{
         res.json(friendsData);
-
+        console.log(res);
     });
 
 };

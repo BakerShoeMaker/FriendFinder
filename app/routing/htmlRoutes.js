@@ -8,7 +8,7 @@ module.exports = function(app) {
         res.sendFile(path.join(__dirname, "../public/home.html"));
     });
     app.get("/survey", (req, res)=> {
-        res.send("You're on the survey page.");
+        res.sendFile(path.join(__dirname,"../public/survey.html"));
     });
 
 };
